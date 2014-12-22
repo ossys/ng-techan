@@ -1,0 +1,25 @@
+{
+  "name": "ng-techan",
+  "version": "0.0.0",
+  "authors": [
+    "ccravens <chad.cravens@ossys.com>"
+  ],
+  "description": "Angular Directives for TechanJS D3-based Financial Charts",
+  "main": "ng-techan.js",
+  "keywords": [
+    "techan",
+    "techanjs",
+    "d3",
+    "charts",
+    "financial"
+  ],
+  "license": "MIT",
+  "homepage": "http://ossys.github.io/ng-techan",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
