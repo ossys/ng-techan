@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="app">
+	<head>
+		<title>NG-Techan Examples</title>
+		<meta charset="utf-8">
+		
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body ng-controller="ApplicationCtrl">
+	
+		<div>
+			<h1>OHLC Chart</h1>
+			<techan-ohlc></techan-ohlc>
+		</div>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script>
+		<script src="http://d3js.org/d3.v3.min.js"></script>
+		<script src="http://techanjs.org/techan.min.js"></script>
+		<script src="js/ng-techan.js"></script>
+		
+		<script type="application/javascript">
+			angular.module('app',['ng.techan'])
+			
+			.controller('ApplicationCtrl', function(){
+				
+			})
+			
+			;
+		</script>
+	</body>
+</html>
